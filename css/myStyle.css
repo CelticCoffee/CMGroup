@@ -1,0 +1,189 @@
+
+
+* {
+  font-family: 'Raleway', serif;
+}
+
+
+.grid-gutter-width: 0;
+
+
+#clarityNavBar {
+  font-family: 'Arvo', serif;
+  font-size: 2em;
+
+}
+.navbar-brand {
+  padding-left: 5em;
+}
+
+.navbar-brand img {
+  width: 90%;
+
+}
+
+.navbar-inverse li {
+  margin-left: 2em;
+
+}
+.noShowText {
+  display: none;
+}
+
+.topLogo {
+  width: 40%;
+  display: block;
+  margin: 0 auto;
+  padding-left: 1em;
+  padding-bottom: 2em;
+  padding-top: 0;
+}
+
+.heroImage img {
+  width: 100%;
+}
+
+.flexslider ul  {
+  margin: 0;
+  padding: 0;
+}
+
+
+.colorOne {
+  background-color: #C8C8C8;
+}
+
+.colorTwo {
+  background-color: #F0F0F0;
+}
+
+
+.colorThree {
+  background-color: #B8B8B8;
+}
+
+
+
+.mobileHomeNav .list-group-item {
+  margin-bottom: .25em;
+  border-radius: 5px;
+  text-align: center;
+  font-size: 1.25em;
+}
+
+#promo {
+  padding: 1em;
+  font-size: 1em;
+  font-weight: 500;
+}
+
+.mobileFeatureImage img {
+  width: 100%;
+  border-radius: 5px;
+}
+
+.brandIcons {
+  list-style: none;
+}
+
+.brandIcons {
+  margin-left: 20%;
+}
+.brandIcons li{
+  display: inline-block;
+  padding: 2em;
+}
+
+.mobileHomeNav #address {
+  font-size: 1em;
+
+}
+
+#address {
+  text-align: center;
+}
+
+#phone {
+  font-size: 1em;
+  text-align: center;
+}
+
+.copyright {
+  margin-top: 1em;
+  font-size: .75em;
+  text-align: center;
+  font-weight: 500;
+}
+
+.dealerDescription {
+  /*background-color: lightGray;*/
+  font-size: 1em;
+  padding: 1em;
+  border-radius: 5px;
+  font-weight: 500;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+
+/***************************/
+/********media queries*****/
+/***************************/
+
+@media screen and (min-width: 768px) {
+  /*.mobileJumbo {
+  display: none;
+  }*/
+
+  .slides img {
+    border-radius: 5px;
+  }
+
+  .thumbnail {
+    height: 500px;
+    width: 100%;
+  }
+
+  .brand img {
+    padding: 1em;
+    width: 80%;
+  }
+
+  .gearLogos {
+    width: 100%;
+    padding: .5em;
+  }
+}
+
+.slick-prev {
+    left: 25px;
+    z-index: 1;
+
+}
+
+.slick-next {
+    right: 25px;
+    z-index: 1;
+}
+
+
+
+@media screen and (max-width: 1200px) {
+  .thumbnail {
+    width: 100%;
+  }
+  .brandIcons li{
+    padding: .85em;
+    }
+}
+
+
+
+@media screen and (max-width: 382px) {
+
+  .brandIcons li{
+    padding: .65em;
+    }
+}

@@ -1,0 +1,71 @@
+.service-content {
+  background-color: lightGray;
+}
+.row {
+  padding: 1em;
+  margin-bottom: 1em;
+
+}
+
+.rightSide  {
+  background-color: #001f3f;
+  padding: 1em;
+
+}
+
+.rightSideAlt {
+  background-color: #DDDDDD;
+}
+
+.testimonial {
+  font-size:1em;
+  padding: 1.5em;
+}
+
+
+.rightSide .testimonial {
+  font-size:1em;
+  padding: 1.5em;
+  color: #DDDDDD;
+
+}
+
+#choirVideo {
+  display: none;
+  margin: 3em auto;
+}
+
+#choirVidButton {
+  background-color: #001f3f;
+  color: #DDDDDD;
+}
+
+.contactBtn {
+  background-color: #001f3f;
+  color: #DDDDDD;
+}
+
+#clarityExternalArticles {
+  display: none;
+}
+
+#choirBack {
+  display:none;
+}
+
+.whiteRow {
+  background-color: #F8F8F8;
+}
+
+.equipment {
+  width: auto;
+  margin-top: 2em;
+  float: right;
+  margin-bottom: 2em;
+}
+
+.speaker {
+  margin-top: 2em;
+  margin-bottom: 2em;
+  float: left;
+}
