@@ -1,0 +1,182 @@
+* {
+  list-style: none;
+}
+
+#content {
+  padding-top: 2.5em;
+}
+
+/*//The left column//*/
+.tableOfContents {
+  margin-left: 0;
+  padding-left: 0;
+}
+
+.articleListTitle {
+  font-family: 'Anonymous Pro', serif;
+  font-weight: bold;
+  padding-top: 1em;
+}
+
+.articleLinks li{
+  padding-top: 1em;
+}
+
+.articleLinks {
+  padding-left: 0;
+
+}
+
+/*Main article Area*/
+
+.list-group {
+  border-bottom:  2px solid gray;
+}
+
+.list-group-item-text {
+  line-height: 1.6em;
+  padding-left: 4em;
+  padding-right: 3em;
+  padding-bottom: 1.5em;
+  padding-top: 1em;
+  text-align: left;
+}
+
+.teaser {
+  color: #1874CD;
+  text-align: right;
+  margin-right: 20px;
+}
+
+.closeArticle {
+  color: #1874CD;
+  text-align: right;
+  margin-right: 20px;
+}
+
+
+.list-group-item-heading {
+  font-family: 'Anonymous Pro', cursive;
+  text-align: center;
+  margin-top: 1.5em;
+}
+
+.subheader {
+  text-align: center;
+  padding-top: 0;
+  color: #696969;
+}
+
+.withLine {
+  padding-top: 1em;
+  border-top: 1px dotted gray;
+}
+
+.img-responsive {
+  padding: 1em;
+  display: block;
+  margin: 0 auto;
+}
+
+.readMore {
+  text-align: center;
+}
+
+.quoted {
+  font-style: italic;
+  /*text-align: center;*/
+  line-height: 1.8em;
+  margin-right: 5em;
+  margin-left: 5em;
+  padding: 1.5em;
+  background-color: lightGray;
+}
+
+.credit {
+  text-align: right;
+  margin-right: 1em;
+}
+
+.projectsList {
+  padding-bottom: 1em;
+  text-align: center;
+}
+
+.projectsList li {
+  padding-top: 0;
+  padding-bottom: 1em;
+}
+
+
+
+.gear li {
+  padding-bottom: 1em;
+}
+
+
+
+
+.moreArticle {
+  display: none;
+  padding-left: 3em;
+  padding-right: 2em;
+  padding-bottom: 1.5em;
+  padding-top: 1em;
+  text-align: left;
+}
+
+.moreArticle p {
+  padding-left: 1em;
+}
+
+.bigArrow {
+  font-size: 1em;
+  color: gray;
+  text-align: center;
+  display: block;
+}
+
+.upArrow {
+  font-size: 1em;
+  color: gray;
+  text-align: center;
+  display: block;
+}
+
+.glyphicon {
+  display: block;
+  margin: 0, auto;
+  font-size: 1.25em;
+  color: gray;
+  text-align: center;
+}
+
+.glyphicon-chevron-up {
+  padding-bottom: .5em;
+}
+.hidden {
+  display: none;
+}
+
+.highlighted {
+  /*background-color: yellow;*/
+  padding-left: .25em;
+  padding-right: 0;
+  font-size: 1.25em;
+  box-shadow: 2px 2px 2px 2px gray;
+  background-color: #EBECE4;
+}
+
+.moreText {
+  display: none;
+}
+
+#afterQuote {
+  margin-top: 3em;
+  margin-bottom: 1em;
+}
+
+@media screen and (min-width: 995px) {
+  .tableOfContents {
+    position: fixed;
+  }
