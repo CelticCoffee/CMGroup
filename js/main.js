@@ -23,7 +23,7 @@ $('.multiple-items').slick({
   slidesToShow: 3,
   slidesToScroll: 2,
   autoplay: true,
-  autoplaySpeed: 6000,
+  autoplaySpeed: 4000,
   cssEase: 'linear'
 });
   console.log('slickRockBaby')
