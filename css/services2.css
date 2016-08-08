@@ -1,0 +1,57 @@
+.serviceContent {
+  margin-top: 5em;
+}
+
+.grayRow {
+  background-color: lightGray;
+  padding: 1em;
+}
+
+.typeOfService {
+  text-align: center;
+  padding-bottom: 1em;
+}
+
+.serviceText {
+  font-size: 1.25em;
+  line-height: 1.75em;
+}
+
+.testimonial {
+  font-size: 1.25em;
+  line-height: 1.75em;
+  background-color: #001f3f;
+  padding: 1em;
+  color: #DDDDDD;
+  border-radius: 5px;
+}
+
+#choirVideo {
+  display: none;
+}
+
+#choirBack {
+  display: none;
+}
+
+#choirVidButton {
+  margin-bottom: 1em;
+  background-color: #001f3f;
+  color: #DDDDDD;
+}
+
+/*//video button area//*/
+#choirBack {
+  margin-top: 1em;
+}
+
+.equipment {
+  border-radius: 5px;
+}
+
+.contactBtn {
+  background-color: #001f3f;
+  color: #DDDDDD;
+  padding: 1em;
+  margin-bottom: 1em;
+}

@@ -4,13 +4,13 @@
   font-family: 'Raleway', serif;
 }
 
-
-.grid-gutter-width: 0;
-
+#mainContainer {
+  padding-top: 5em;
+}
 
 #clarityNavBar {
   font-family: 'Arvo', serif;
-  font-size: 2em;
+  font-size: 1.25em;
 
 }
 .navbar-brand {
@@ -30,82 +30,54 @@
   display: none;
 }
 
-.topLogo {
-  width: 40%;
-  display: block;
-  margin: 0 auto;
-  padding-left: 1em;
-  padding-bottom: 2em;
-  padding-top: 0;
-}
-
-.heroImage img {
-  width: 100%;
-}
-
-.flexslider ul  {
-  margin: 0;
-  padding: 0;
-}
 
 
-.colorOne {
-  background-color: #C8C8C8;
-}
-
-.colorTwo {
-  background-color: #F0F0F0;
-}
-
-
-.colorThree {
-  background-color: #B8B8B8;
-}
-
-
-
-.mobileHomeNav .list-group-item {
-  margin-bottom: .25em;
-  border-radius: 5px;
-  text-align: center;
-  font-size: 1.25em;
-}
-
-#promo {
+.promo {
+  margin-top: 1.5em;
   padding: 1em;
-  font-size: 1em;
+  font-size: 1.3em;
   font-weight: 500;
+  line-height: 2em;
 }
 
-.mobileFeatureImage img {
-  width: 100%;
-  border-radius: 5px;
-}
 
 .brandIcons {
-  list-style: none;
+  display: block;
+  margin: 0, auto;
+  text-align: center;
+  margin-bottom: 5em;
 }
 
-.brandIcons {
-  margin-left: 20%;
-}
 .brandIcons li{
+  list-style: none;
   display: inline-block;
   padding: 2em;
-}
-
-.mobileHomeNav #address {
-  font-size: 1em;
 
 }
+
+
 
 #address {
   text-align: center;
+  color: white;
+}
+
+#address a {
+color: white;
 }
 
 #phone {
   font-size: 1em;
   text-align: center;
+}
+
+#phone a {
+  color: white;
+}
+
+.glyphicon-earphone {
+   font-size: 1.5em;
+   padding-right: .25em;
 }
 
 .copyright {
@@ -115,18 +87,25 @@
   font-weight: 500;
 }
 
-.dealerDescription {
-  /*background-color: lightGray;*/
-  font-size: 1em;
-  padding: 1em;
-  border-radius: 5px;
-  font-weight: 500;
+.copyright a {
+  color: white;
 }
+
 
 a:hover {
   text-decoration: none;
 }
 
+.contactContainer {
+  margin-top: 5em;
+
+}
+
+#bottomColor {
+  background-color: #404040;
+  color: white;
+  padding: 2em;
+}
 
 
 /***************************/
@@ -134,29 +113,8 @@ a:hover {
 /***************************/
 
 @media screen and (min-width: 768px) {
-  /*.mobileJumbo {
-  display: none;
-  }*/
 
-  .slides img {
-    border-radius: 5px;
-  }
 
-  .thumbnail {
-    height: 500px;
-    width: 100%;
-  }
-
-  .brand img {
-    padding: 1em;
-    width: 80%;
-  }
-
-  .gearLogos {
-    width: 100%;
-    padding: .5em;
-  }
-}
 
 .slick-prev {
     left: 25px;
@@ -169,7 +127,7 @@ a:hover {
     z-index: 1;
 }
 
-
+}
 
 @media screen and (max-width: 1200px) {
   .thumbnail {
