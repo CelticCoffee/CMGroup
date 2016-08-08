@@ -35,10 +35,11 @@
 
 
 
-  console.log('slickRockBaby')
 
-//   var contactform =  document.getElementById('contactform');
-//      contactform.setAttribute('action', '//formspree.io/' + 'soundguytravis' + '@' + 'hotemail' + '.' + 'com');
+  var contactform =  document.getElementById('contactform');
+    //  'soundguytravis' + '@' + 'hotemail' + '.' + 'com');
+      contactform.setAttribute('action', '//formspree.io/' +
+      'wendygoodwin' + '@' + 'make' + '.' + 'com');
 });
 
 // });
