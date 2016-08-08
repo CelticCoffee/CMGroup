@@ -1,4 +1,7 @@
 $(document).ready(function(){
+
+  $(window).bind("load", function () {
+
   $('.multiple-items').slick({
     // dots: true,
     arrows: true,
@@ -8,6 +11,8 @@ $(document).ready(function(){
     autoplay: true,
     autoplaySpeed: 4000,
     cssEase: 'linear'
+
+  });
   });
 
   // alert('hello world');
@@ -27,6 +32,8 @@ $(document).ready(function(){
     $('#choirBack').toggle();
     $('#choirVidButton').toggle();
   });
+
+
 
   console.log('slickRockBaby')
 
