@@ -1,4 +1,4 @@
-$(document).ready(function(){
+// $(document).ready(function(){
 
   $(window).bind("load", function () {
 
@@ -7,13 +7,13 @@ $(document).ready(function(){
     arrows: true,
     infinite: true,
     slidesToShow: 3,
-    slidesToScroll: 2,
+    slidesToScroll: 1,
     autoplay: true,
-    autoplaySpeed: 4000,
+    autoplaySpeed: 5000,
     cssEase: 'linear'
 
   });
-  });
+
 
   // alert('hello world');
   //Mobile Company Intro Text Expand//
@@ -40,3 +40,5 @@ $(document).ready(function(){
 //   var contactform =  document.getElementById('contactform');
 //      contactform.setAttribute('action', '//formspree.io/' + 'soundguytravis' + '@' + 'hotemail' + '.' + 'com');
 });
+
+// });
