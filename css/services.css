@@ -1,6 +1,13 @@
+.serviceText {
+  font-size: 1.2em;
+}
+
 .service-content {
   background-color: lightGray;
+  margin-top: 3em;
+  margin-bottom: 5em;
 }
+
 .row {
   padding: 1em;
   margin-bottom: 1em;
@@ -18,13 +25,13 @@
 }
 
 .testimonial {
-  font-size:1em;
+  font-size: 1.2em;
   padding: 1.5em;
 }
 
 
 .rightSide .testimonial {
-  font-size:1em;
+  font-size:1.2em;
   padding: 1.5em;
   color: #DDDDDD;
 
@@ -38,6 +45,7 @@
 #choirVidButton {
   background-color: #001f3f;
   color: #DDDDDD;
+  margin-bottom: 1em;
 }
 
 .contactBtn {
@@ -51,6 +59,7 @@
 
 #choirBack {
   display:none;
+  margin-bottom: 1em;
 }
 
 .whiteRow {
@@ -60,7 +69,7 @@
 .equipment {
   width: auto;
   margin-top: 2em;
-  float: right;
+  /*float: right;*/
   margin-bottom: 2em;
 }
 

@@ -7,24 +7,25 @@
         <meta name="description" content =
           "An audio and media contractor based in Portland, Oregon, Clarity Media Group specializes in the design and installation of audio, video, and lighting systems for churches, concert halls, night clubs, and corporate offices."
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="icon" type="img/png" href="img/favicon.ico">
+        <link rel="icon" type="img/png" href="favicon.ico">
         <link rel="apple-touch-icon" href="apple-touch-icon.png">
         <link href='https://fonts.googleapis.com/css?family=Raleway' rel='stylesheet' type='text/css'>
 
         <link rel="stylesheet" href="css/normalize.css">
         <link rel="stylesheet" href="css/main.css">
+          <script src="https://code.jquery.com/jquery-2.2.4.min.js" integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44=" crossorigin="anonymous"></script>
         <!-- Latest compiled and minified CSS -->
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
         <!-- Optional theme -->
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap-theme.min.css" integrity="sha384-fLW2N01lMqjakBkx3l/M9EahuwpSfeNvV63J5ezn3uZzapT0u7EYsXMjQV+0En5r" crossorigin="anonymous">
         <script src="js/vendor/modernizr-2.8.3.min.js"></script>
         <link rel="stylesheet" href="css/myStyle.css">
-        <link rel="stylesheet" href="css/services.css">
+        <link rel="stylesheet" href="css/services2.css">
 
     </head>
     <body>
 
-      <nav class="navbar navbar-inverse">
+      <nav class="navbar navbar-inverse navbar-fixed-top">
         <div class="container-fluid">
           <!-- Brand and toggle get grouped for better mobile display -->
           <div class="navbar-header">
@@ -48,83 +49,107 @@
           </div><!-- /.navbar-collapse -->
         </div><!-- /.container-fluid -->
       </nav>
+      <div class="container serviceContent">
+        <div class="row grayRow">
+          <div class="col-xs-12">
+            <h2 class="typeOfService">Consultation</h2>
+          </div>
+          <div class="col-xs-12 col-md-7">
+            <p class="serviceText">Our design consultants take the time to know our customers needs and wants. From start to finish, customer concerns come first. The consultation period is the beginning of a long term relationship.</p>
+            <p class="serviceText" id="vidCaption">
+              Clarity Media Group&rsquo;s consultants are respected contributors to the audio and media industry.  Click below to watch Travis Cibolski of Clarity Media Group chat with <a href="http://www.audixusa.com/index-15.shtml" target ="_blank">Audix Microphones</a> Engineer Dean K about choir micing basics.
+            </p>
+            <button type="button" class="btn btn-lg" id="choirVidButton" aria-label="Left Align">Watch Now</button>
 
-
-          <div class="container service-content">
-            <div class="row">
-              <div class="col-xs-12 col-md-6" itemscope itemtype="http://schema.org/Offer">
-                <h2>Consultation </h2>
-                <p class="consultationText"><span itemprop="description">Our design consultants take the time to know our customers needs and wants. From start to finish customer concerns come first. The consultation period is the beginning of a long term relationship.</span></p>
-                <p id="vidCaption">Clarity Media Group&rsquo;s consultants are respected contributors to the audio and media industry.  Click below to watch Travis Cibolski of Clarity Media Group chat with <a href="http://www.audixusa.com/index-15.shtml" target ="_blank">Audix Microphones</a> Engineer Dean K about choir micing basics.<br><br>
-                <button type="button" class="btn btn-md"     id="choirVidButton" aria-label="Left Align">Watch Now
-                </button></p>
-
-                <!-- 16:9 aspect ratio -->
-                <div class="embed-responsive embed-responsive-16by9" id="choirVideo">
-                  <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/NBhwQ62GO_A"></iframe></div>
-                <button type="button" class="btn btn-warning" id="choirBack">Back</button>
+              <!-- 16:9 aspect ratio -->
+              <div class="embed-responsive embed-responsive-16by9" id="choirVideo">
+                <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/NBhwQ62GO_A"></iframe>
               </div>
-
-              <div class="col-xs-12 col-md-6 rightSide" itemscope itemtype="http://schema.org/Review">
-                <p class="testimonial" itemprop="itemReviewed" itemscope itemtype="http://schema.org/reviewBody"><strong>&quot;<span itemprop="name">Travis Cibolski</span> has been a dream to work with and has responded to each and every question and concern no matter how small.  Clear full range sound is now heard from every point in the room. I have to say the new <a href="http://www.yamahaproaudio.com/northamerica/en_us/applications/installedsound/cis/" target="_blank">Yamaha CIS</a> makes me almost as happy as being able to feature the American treasure of jazz for a few nights every week.”&quot;</strong><br>
+              <button type="button" class="btn btn-warning" id="choirBack">Back</button>
+          </div>
+          <div class="col-xs-12 col-md-5">
+            <p class="testimonial" itemprop="itemReviewed" itemscope itemtype="http://schema.org/reviewBody">&quot;<span itemprop="name">Travis Cibolski</span> has been a dream to work with and has responded to each and every question and concern no matter how small.  Clear full range sound is now heard from every point in the room. I have to say the new
+              <a href="http://www.yamahaproaudio.com/northamerica/en_us/applications/installedsound/cis/" target="_blank">Yamaha CIS</a> makes me almost as happy as being able to feature the American treasure of jazz for a few nights every week.”&quot;<br>
               &#126; <span itemprop="author" itemscope itemtype="http://schema.org/Person">
-                <span itemprop="name">Michael Gibbons</span></span>, Owner of <a href="http://www.jobarpdx.net/jazz/" target="_blank">Jo Rotisserie and Bar</a>, Portland, OR </p>
+                <span itemprop="name">Michael Gibbons</span></span>, Owner of <a href="http://www.jobarpdx.net/jazz/" target="_blank">Jo Rotisserie and Bar</a>, Portland, OR
+            </p>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-xs-12">
+            <h2 class="typeOfService">Sound, Video and Lighting Design</h2>
+          </div>
+          <div class="col-xs-12 col-md-7">
+            <p class="serviceText">Our engineers use state of the art tools, software, and continuing education in media system design to deliver worry free professional quality.<br><br>
+            As an authorized dealer for Nexo, Yamaha, Shure, Planar and more, Clarity Media Group's designers are knowledgeable professionals, qualified to assist you in selecting the equipment that is right for you and to instruct you in its proper installation, set-up and care.</p>
+          </div>
+          <div class="col-xs-12 col-md-5">
+            <p><itemscope itemtype="http://schema.org/Product">
+              <img itemprop="image" class="equipment img-responsive" src="img/serviceImg/console.jpg" alt="digital console"></p>
+          </div>
+          <div class="col-xs-12 col-md-7">
+              <p class="testimonial">&quot;I have worked with Clarity Media Group for 7 years.  They put a sound system in at our church 4 to 5 years ago and I loved working with them. They came in and out and finished so fast and they were very  professional.&quot;<br>
+            &#126; Daniel Brazovan, Technical Director, <a href="http://bethanynewsite.com/index.php?option=com_content&view=frontpage&id=424&Itemid=485" target="_blank">Bethany Romanian Church, Chicago</a></p>
+          </div>
+        </div>
+        <div class="row grayRow">
+          <div class="col-xs-12">
+            <h2 class="typeOfService">Installation</h2>
+          </div>
+          <div class="col-xs-12 col-md-7">
+            <p class="serviceText">The installation crew, under the direction of the design consultant, will work carefully to install the new system according to specifications on time and on budget with as little interruption to the client’s schedule as possible.</p>
+          </div>
+          <div class="col-xs-12 col-md-5">
+            <p class="testimonial">&quot;I fell in love with Yamaha products after Clarity Media Group installed a head-to-toe Yamaha/NEXO system in the Canoes Cabaret, our live music venue. Our Destinations Lounge system sounds amazing through the entire spectrum and has beautifully uniform coverage in every seat.&quot;<br>&#126; Aaron Jackson, Audio Visual Technical Engineer, <a href="http://www.tulalipresortcasino.com/" target="_blank">Tualalip Casino, Washington</a></p>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-xs-12">
+            <h2 class="typeOfService">Training and Education</h2>
+          </div>
+          <div class="col-xs-12 col-md-7">
+            <p class="serviceText">Clarity Media Group provides on-site training for all equipment, including setup, operation, and basic troubleshooting.</p>
+          </div>
+          <div class="col-xs-12 col-md-5">
+            <p class="testimonial"itemprop="itemReviewed" itemscope itemtype="http://schema.org/reviewBody">&quot;I love working with Clarity Media. They are fast, and always ready to help with whatever problems you have.&quot;<br>&#126;<span itemprop="author">Ben Sturgis, Sr. Audio Technician,</span> <a href="http://www.alamodome.com/" target="_blank" itemprop="author"><span itemprop="organization">Alamo Dome Sports and Entertainment Facilities, San Antonio, Texas</span></a></p>
+          </div>
+        </div>
+        <div class="row grayRow">
+          <div class="col-xs-12">
+            <h2 class="typeOfService">Maintenance and Services</h2>
+          </div>
+          <div class="col-xs-12 col-md-7">
+            <p class="serviceText">Clarity Media Group stands behind its products and will provide service on all products we sell. Our fully trained technicians will assess the problem and repair it in a timely manner. Loaners will be available if necessary during the process.<br><br>Contact Clarity Media Group today to discuss your project needs.  We work on a range of projects from full stadium installs to tuneups on existant systems in intimate venues and are pleased to provide you with a complimentary consultation.</p>
+            <a class="btn btn-lg contactBtn" href="contact.html">Contact Clarity Media Group</a>
+          </div>
+          <div class="col-xs-12 col-md-5">
+            <img class="img-responsive equipment" src="img/serviceImg/clarityTechnicians.jpg" alt="Clarity Technicians">
+          </div>
+        </div>
+      </div>
+      <div class="container-fluid" id="bottomColor">
+        <div class="row">
+          <div class="col-xs-12">
+            <div class="footer">
+              <div id="phone"><i class="glyphicon glyphicon-earphone"></i><a href="tel:5035343710"><span itemprop="telephone">(503) 534-3710</span></a>
               </div>
-              <div class="col-xs-12 col-md-6" id="choirVideo">
-                <!-- 16:9 aspect ratio -->
-                <div class="embed-responsive embed-responsive-16by9">
-                    <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/NBhwQ62GO_A"></iframe>
-                </div>
-              </div>
+              <div itemprop="address" itemscope itemtype="http://schema.org/PostalAddress">
+              <div id="address"><a href="https://www.google.com/maps/place/Clarity+Media+Group/@45.4168483,-122.7280691,17z/data=!3m1!4b1!4m2!3m1!1s0x5495733a0c561bf5:0x23a4d18421aae40d" target="_blank"><br><span itemprop="streetAddress">
+                4800 SW Meadows Rd Suite 300 <br><span itemprop="addressLocality"> Lake Oswego, OR</span><span itemprop="postalCode"> 97035</span></a></span>
+              </div></div>
+              <div class="copyright">
+            &copy; 2016 All Rights Reserved <br><a href="http://wendygoodwin.io" target="_blank">Wendy J Goodwin Creative</a>
             </div>
-            <div class="row whiteRow">
-              <div class="col-xs-12 col-sm-6 col-md-7">
-                <h2> Sound, Video and Lighting Design </h2>
-                <p>Our engineers use state of the art tools, software, and continuing education in media system design to deliver worry free professional quality.</p>
-                <p class="testimonial service-content"><strong>&quot;I have worked with Clarity Media Group for 7 years.  They put a sound system in at our church 4 to 5 years ago and I loved working with them. They came in and out and finished so fast and they were very  professional.&quot;</strong><br>
-              &#126; Daniel Brazovan, Technical Director, <a href="http://bethanynewsite.com/index.php?option=com_content&view=frontpage&id=424&Itemid=485" target="_blank">Bethany Romanian Church, Chicago</a></p>
-              </div>
-              <div class="col-xs-12 col-sm-6 col-md-5" itemscope itemtype="http://schema.org/Product">
-                <img itemprop="image" class="equipment img-responsive" src="img/serviceImg/console.jpg" alt="digital console">
-              </div>
             </div>
-            <div class="row">
-              <div class="col-xs-12 col-md-6">
-                <h2> Installation </h2>
-                <p>The installation crew, under the direction of the design consultant, will work carefully to install the new system according to specifications on time and on budget with as little interruption to the client&rsquo;s schedule as possible.</p>
-              </div>
-              <div class="col-xs-12 col-md-6 rightSide">
-                <p class="testimonial"><strong>&quot;I fell in love with Yamaha products after Clarity Media Group installed a head-to-toe Yamaha/NEXO system in the Canoes Cabaret, our live music venue. Our Destinations Lounge system sounds amazing through the entire spectrum and has beautifully uniform coverage in every seat.&quot;</strong><br>&#126; Aaron Jackson, Audio Visual Technical Engineer, <a href="http://www.tulalipresortcasino.com/" target="_blank">Tualalip Casino, Washington</a></p>
-              </div>
-            </div>
-            <div class="row whiteRow">
-              <div class="col-xs-12 col-md-6">
-                <h2> Training and Education </h2>
-                <p>We provide on-site training for all equipment, including setup, operation, and basic troubleshooting.</p>
+          </div>
+        </div>
+      </div>
 
-              </div>
-              <div class="col-xs-12 col-md-6 rightSideAlt" itemscope itemtype="http://schema.org/Review">
-                  <p class="testimonial" itemprop="itemReviewed" itemscope itemtype="http://schema.org/reviewBody"><strong>&quot;I love working with Clarity Media. They are fast, and always ready to help with whatever problems you have.&quot;</strong><br>&#126;<span itemprop="author">Ben Sturgis, Sr. Audio Technician,</span> <a href="http://www.alamodome.com/" target="_blank" itemprop="author"><span itemprop="organization">Alamo Dome Sports and Entertainment Facilities, San Antonio, Texas</span></a></p>
-              </div>
-            </div>
-              <div class="col-xs-12 col-md-6 service-content">
-                <h2> Maintenance and Services </h2>
-                <p>We stand behind our products and will provide service on all products we sell. Our fully trained technicians will assess the problem and repair it in a timely manner. Loaners will be available if necessary during the process.<br><br>Contact Clarity Media Group today to discuss your project needs.  We work on a range of projects from full stadium installs to tuneups on existant systems in intimate venues and are pleased to provide you with a complimentary consultation.</p>
-                <!-- <button class="btn btn-md contactBtn" data-toggle="modal" data-target="#clarityContactModal">Contact Clarity Media Group</button> -->
-                <a class="btn btn-md contactBtn" href="contact.html">Contact Clarity Media Group</a>
-              </div>
-              <div class="col-xs-12 col-md-6">
-                <img class="img-responsive equipment" src="img/serviceImg/clarityTechnicians.jpg" alt="Install at the Alamo Dome">
-              </div>
-            </div>
 
-
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
-        <script src="js/vendor/jquery-migrate-1.4.1.min.js"></script>
+        <!-- <script src="js/vendor/jquery-migrate-1.4.1.min.js"></script> -->
         <!-- Latest compiled and minified JavaScript -->
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
-        <script type="text/javascript" src="slick/slick.min.js"></script>
+        <script src="js/vendor/slick.min.js"></script>
         <script src="js/main.js"></script>
-
     </body>
 </html>
