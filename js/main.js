@@ -1,4 +1,15 @@
 $(document).ready(function(){
+  $('.multiple-items').slick({
+    // dots: true,
+    arrows: true,
+    infinite: true,
+    slidesToShow: 3,
+    slidesToScroll: 2,
+    autoplay: true,
+    autoplaySpeed: 4000,
+    cssEase: 'linear'
+  });
+
   // alert('hello world');
   //Mobile Company Intro Text Expand//
   $('#choirVidButton').click(function(){
@@ -17,15 +28,6 @@ $(document).ready(function(){
     $('#choirVidButton').toggle();
   });
 
-$('.multiple-items').slick({
-  dots: true,
-  infinite: true,
-  slidesToShow: 3,
-  slidesToScroll: 2,
-  autoplay: true,
-  autoplaySpeed: 4000,
-  cssEase: 'linear'
-});
   console.log('slickRockBaby')
 
 //   var contactform =  document.getElementById('contactform');
