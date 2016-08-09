@@ -4,6 +4,4 @@ $(document).ready(function(){
 var contactform =  document.getElementById('contactForm');
     contactform.setAttribute('action', '//formspree.io/' +
     'soundguytravis' + '@' + 'hotmail' + '.' + 'com');
-
-
 });
