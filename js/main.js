@@ -38,7 +38,7 @@
 
   var contactform =  document.getElementById('contactform');
     //  'soundguytravis' + '@' + 'hotmail' + '.' + 'com');
-     //  contactform.setAttribute('action', '//formspree.io/' +
+      contactform.setAttribute('action', '//formspree.io/' +
       'wendyfiddles' + '@' + 'comcast' + '.' + 'net');
 });
 
