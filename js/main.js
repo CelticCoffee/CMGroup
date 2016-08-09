@@ -37,7 +37,7 @@
 
 
   var contactform =  document.getElementById('contactform');
-    //  'soundguytravis' + '@' + 'hotemail' + '.' + 'com');
+    //  'soundguytravis' + '@' + 'hotmail' + '.' + 'com');
      //  contactform.setAttribute('action', '//formspree.io/' +
       'wendyfiddles' + '@' + 'comcast' + '.' + 'net');
 });
