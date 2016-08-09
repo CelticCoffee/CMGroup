@@ -214,7 +214,13 @@
 }
 
 @media screen and (min-width: 995px) {
-  .tableOfContents {
+  #tableOfContents {
     position: fixed;
+  }
+}
+
+@media screen and (max-width: 415px) {
+  .contactTitle {
+    font-size: .5em;
   }
 }
