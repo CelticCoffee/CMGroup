@@ -39,7 +39,7 @@
   var contactform =  document.getElementById('contactform');
     //  'soundguytravis' + '@' + 'hotemail' + '.' + 'com');
      //  contactform.setAttribute('action', '//formspree.io/' +
-      'wendyfiddles' + '@' + 'comcast' + '.' + 'com');
+      'wendyfiddles' + '@' + 'comcast' + '.' + 'net');
 });
 
 // });
