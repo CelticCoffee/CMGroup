@@ -17,10 +17,7 @@
   padding-left: 5em;
 }
 
-.navbar-brand img {
-  width: 90%;
 
-}
 
 .navbar-inverse li {
   margin-left: 2em;
@@ -113,26 +110,18 @@ a:hover {
 /***************************/
 
 @media screen and (min-width: 768px) {
-
-
-
 .slick-prev {
     left: 25px;
     z-index: 1;
-
-}
+  }
 
 .slick-next {
     right: 25px;
     z-index: 1;
-}
-
+  }
 }
 
 @media screen and (max-width: 1200px) {
-  .thumbnail {
-    width: 100%;
-  }
   .brandIcons li{
     padding: .85em;
     }
@@ -141,7 +130,6 @@ a:hover {
 
 
 @media screen and (max-width: 382px) {
-
   .brandIcons li{
     padding: .65em;
     }
