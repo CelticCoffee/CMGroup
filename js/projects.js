@@ -4,7 +4,7 @@ $(document).ready(function(){
     $('.moreText', this).toggle('slow');
     console.log('hi i am clicked')
     $('.teaser', this).toggle();
-    // $('#tableOfContents').toggle();
+    $('#tableOfContents').toggle();
   })
 
   var openSide = document.querySelector('#openProjectLst');
