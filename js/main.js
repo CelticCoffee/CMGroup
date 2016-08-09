@@ -1,4 +1,3 @@
-// $(document).ready(function(){
 
   $(window).bind("load", function () {
 
@@ -33,13 +32,4 @@
     $('#choirVidButton').toggle();
   });
 
-
-
-
-  var contactform =  document.getElementById('contactform');
-    //  'soundguytravis' + '@' + 'hotmail' + '.' + 'com');
-      contactform.setAttribute('action', '//formspree.io/' +
-      'wendyfiddles' + '@' + 'comcast' + '.' + 'net');
-});
-
-// });
+  });
