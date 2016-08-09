@@ -1,0 +1,38 @@
+.glyphicon-earphone {
+   font-size: 1.0em;
+   padding-right: .25em;
+}
+
+.input-group {
+  margin-top: 1em;
+}
+
+.contactContainer {
+  margin-top: 5em;
+}
+
+.contactSendButton {
+  display: block;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.contactInfo {
+  margin-bottom: 1.5em;
+}
+
+#contactContainer {
+  margin-bottom: 20em;
+}
+
+@media screen and (max-width: 768px) {
+  .contactInfo {
+  text-align: center;
+  }
+
+  .contactTitle {
+    font-size: 1.55em;
+    text-align: center;
+  }
+
+}
