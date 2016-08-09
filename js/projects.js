@@ -13,12 +13,29 @@ $(document).ready(function(){
   var closeSide = document.querySelector('.closeButton');
   closeSide.addEventListener('click', closeNav, true);
 
+
+var mobileWidthCheck = screen.width;
+console.log(mobileWidthCheck);
+
+
+  //To make sure that the sidebar does not totally cover the article area//
   function openSideBar() {
-    document.getElementById('tableOfContents').style.width = "350px";
+    if(mobileWidthCheck > 375) {
+      console.log('largerScreen');
+      document.getElementById('tableOfContents').style.width = "350px";
+    }
+    else if (mobileWidthCheck <= 375) {
+      console.log('smallerScreen');
+      document.getElementById('tableOfContents').style.width = "200px";
+    }
+  }
+  function closeNav(){
+       document.getElementById('tableOfContents').style.width = "0";
   }
 
-  function closeNav() {
-    document.getElementById('tableOfContents').style.width = "0";
-  }
+
+  $('#openProjectLst').click(function(){
+    $('#tableOfContents').toggle();
+  })
 
 });

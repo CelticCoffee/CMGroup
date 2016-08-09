@@ -217,9 +217,4 @@
   .tableOfContents {
     position: fixed;
   }
-
-  @media screen and (max-height: 450px) {
-      .tableOfContents {padding-top: 15px;}
-      .tableOfContents a {font-size: 18px;}
-      .tableOfContents { width: 250px;}
-  }
+}
