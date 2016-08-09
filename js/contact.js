@@ -3,7 +3,7 @@ $(document).ready(function(){
 
 var contactform =  document.getElementById('contactForm');
     contactform.setAttribute('action', '//formspree.io/' +
-    'wendyfiddles' + '@' + 'comcast' + '.' + 'net');
+    'soundguytravis' + '@' + 'hotmail' + '.' + 'com');
 
 
 });
